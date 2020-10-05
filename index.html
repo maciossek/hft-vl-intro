@@ -1,179 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-	<head>
-		<meta charset="utf-8">
+    <title>HFT IPR Intro</title>
 
-		<title>HFT IPR Intro</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
 
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/hft.css" id="theme" />
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/hft.css" id="theme">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.type = "text/css";
+      link.href = window.location.search.match(/print-pdf/gi)
+        ? "css/print/pdf.css"
+        : "css/print/paper.css";
+      document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
-	</head>
-
-	<body>
-
-		<div class="reveal">
-			<div class="slides">
-				<section data-background-image="https://media.giphy.com/media/3og0IFayqgDo4ExYzu/giphy.gif">
-					<h1 class="title">IPR</h1>
-					<h3 class="title">Übersicht / Vorlesungsplan</h3>
-				</section>
-				<section data-markdown>
-					### Mathias Maciossek
-					- 2008 – 2011 HfT Furtwangen
-					- 2011 – 2013 Malmö University
-					- 2013 – 2015 Arbeitsleben kennenlernen
-					- 2017 – 2017 Startup: Aclandia Mozartreisen.de
-					- 2015 – 2020 Freelancer ([Threethink.io](https://threethink.io)), Porsche Digital, Festool
-					- 2019 – 2020 Bosch Gmbh CC-AD
-					- 2020			 	Spacegoats UG
-				</section>
-				<section data-markdown>
-					### Projekte
-					- [mathias-maciossek.com](https://mathias-maciossek.com)
-					- [Slippy Ralph](https://goo.gl/uCxJtQ)
-				</section>
-				<section data-markdown>
-					### Ziele
-					- Welche Technologien gibt es
-					- Wie läuft Web-Development ab
-					- Eigenes Projekt realisieren
-				</section>
-				<section>
-					<section data-markdown>
-						## Vorlesungsplan
-					</section>
-					<section data-markdown>
-						## Internet-Technologien
-
-						- TCP/IP
-						- HTTP
-					</section>
-					<section data-markdown>
-						## Tooling
-
-						- Git
-					</section>
-					<section data-markdown>
-						## Client Technologien
-						- HTML, CSS, Frameworks
-						- JavaScript + jQuery
-						- XHR API, Fetch API (https://hacks.mozilla.org/2015/03/this-api-is-so-fetching)
-					</section>
-					<section data-markdown>
-						## Server Technologien
-						- NodeJS
-						- PHP
-						- WebServices
-					</section>
-				</section>
-				<section data-markdown>
-					### Administratives
-					- 4 SWS, 5 Credit Points
-					- Vorlesung (ca. ½) mit Übungen am Rechner (ca. ½)
-						- Präsenzzeit: 68 h (34 h Vorlesung, 34 h Übungen)
-						- Eigenstudium 82 h (51 h Selbststudium, 31 h Praktische Rechnerarbeit)
-					- Unbenoteter Schein:
-						- Realisierung einer Web-Anwendung
-						- Als Gruppenarbeit (im besten Fall 4 Personen)
-						-	Übungen sind als Einzelarbeit „hochzuladen“ (s. später)
-				</section>
-				<section>
-					<section data-markdown>
-						### Literatur
-					</section>
-					<section data-markdown>
-						https://www.stackoverflow.com
-						https://www.codeschool.com
-						https://w3cschools.com
-						https://www.udemy.com
-						http://thecodinglove.com/
-						https://www.enki.com/
-					</section>
-					<section data-markdown>
-						### Newsletter
-						http://css-weekly.com
-						http://javascriptweekly.com
-					</section>
-					<section>
-						<h3>Bücher</h3>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-image="https://media.giphy.com/media/3og0IFayqgDo4ExYzu/giphy.gif"
+        >
+          <h1 class="title">IPR</h1>
+          <h3 class="title">Übersicht / Vorlesungsplan</h3>
+        </section>
+        <section data-markdown>
+          ### Mathias Maciossek - 2008 – 2011 HfT Furtwangen - 2011 – 2013 Malmö
+          University - 2013 – 2015 Arbeitsleben kennenlernen - 2017 – 2017
+          Startup: Aclandia Mozartreisen.de - 2015 – 2020 Freelancer
+          ([Threethink.io](https://threethink.io)), Porsche Digital, Festool -
+          2019 – 2020 Bosch Gmbh CC-AD - 2020 Spacegoats UG
+        </section>
+        <section data-markdown>
+          ### Projekte - [mathias-maciossek.com](https://mathias-maciossek.com)
+          - [Slippy Ralph](https://goo.gl/uCxJtQ)
+        </section>
+        <section data-markdown>
+          ### Ziele - Welche Technologien gibt es - Wie läuft Web-Development ab
+          - Eigenes Projekt realisieren
+        </section>
+        <section>
+          <section data-markdown>## Vorlesungsplan</section>
+          <section data-markdown>
+            ## Internet-Technologien - TCP/IP - HTTP
+          </section>
+          <section data-markdown>## Tooling - Git</section>
+          <section data-markdown>
+            ## Client Technologien - HTML, CSS, Frameworks - JavaScript + jQuery
+            - XHR API, Fetch API
+            (https://hacks.mozilla.org/2015/03/this-api-is-so-fetching)
+          </section>
+          <section data-markdown>
+            ## Server Technologien - NodeJS - PHP - WebServices
+          </section>
+        </section>
+        <section data-markdown>
+          ### Administratives - 4 SWS, 5 Credit Points - Vorlesung (ca. ½) mit
+          Übungen am Rechner (ca. ½) - Präsenzzeit: 68 h (34 h Vorlesung, 34 h
+          Übungen) - Eigenstudium 82 h (51 h Selbststudium, 31 h Praktische
+          Rechnerarbeit) - Unbenoteter Schein: - Realisierung einer
+          Web-Anwendung - Als Gruppenarbeit (im besten Fall 4 Personen) -
+          Übungen sind als Einzelarbeit „hochzuladen“ (s. später)
+        </section>
+        <section>
+          <section data-markdown>### Literatur</section>
+          <section data-markdown>
+            https://www.stackoverflow.com https://www.codeschool.com
+            https://w3cschools.com https://www.udemy.com
+            http://thecodinglove.com/ https://www.enki.com/
+          </section>
+          <section data-markdown>
+            ### Newsletter http://css-weekly.com http://javascriptweekly.com
+          </section>
+          <section>
+            <h3>Bücher</h3>
             <a
               href="https://www.goodreads.com/review/list/104679781-mathias-maciossek?print=true&shelf=it-recommendations&view=covers"
               target="_blank"
               >Goodreads.co Link</a
-						>
-						</section>
-				</section>
-				<section>
-					<section data-markdown data-background-image="https://ljdchost.com/aVIplNn.gif">
-						### Tools
-					</section>
-					<section data-markdown>
-							### Coding
-							- VS Code
-							- IntelliJ
-							- Sublime
-							- Atom
-					</section>
-					<section data-markdown>
-							### Debugging
-					</section>
-					<section>
-						<h2>Internet Explorer</h2>
-						<img src="https://media.giphy.com/media/e4Jyxh9zQjgnC/giphy.gif" />
-					</section>
-					<section>
-						<h2>Google Chrome</h2>
-						<img src="https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif" />
-					</section>
-				</section>
-				<section>
-					<section data-markdown>
-						### Termine
-					</section>
-					<section data-markdown>
-						### Termine
-						- KW 13: Einführung / Git / HTML / CSS
-						- KW 14: Frontend Development
-						- KW 15: JavaScript
-						- KW 16: Vom statischen Web zu dynamischen Websites (Node.js I)
-						- KW 17: Node.js II
-						- KW 18: Asynchronous JavaScript
-						- KW 23: Abgabe der Projekte nach Absprache mir Skype / Hangouts / wie auch immer
-					</section>
-					<!-- <section data-markdown>
+            >
+          </section>
+        </section>
+        <section>
+          <section
+            data-markdown
+            data-background-image="https://ljdchost.com/aVIplNn.gif"
+          >
+            ### Tools
+          </section>
+          <section data-markdown>
+            ### Coding - VS Code - IntelliJ - Sublime - Atom
+          </section>
+          <section data-markdown>### Debugging</section>
+          <section>
+            <h2>Internet Explorer</h2>
+            <img src="https://media.giphy.com/media/e4Jyxh9zQjgnC/giphy.gif" />
+          </section>
+          <section>
+            <h2>Google Chrome</h2>
+            <img
+              src="https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif"
+            />
+          </section>
+        </section>
+        <section>
+          <section data-markdown>### Termine</section>
+          <section data-markdown>
+            ### Termine - KW 42: Einführung / Git - KW 44: HTML - KW 45: CSS -
+            KW 46: Frontend Development - KW 47: JavaScript - KW 48: Vom
+            statischen Web zu dynamischen Websites (Node.js I) - KW 49: Node.js
+            II - KW 50: Asynchronous JavaScript - KW 03: Abgabe der Projekte
+            nach Absprache mir via Zoom
+          </section>
+          <!-- <section data-markdown>
 						### Termine ( Schein Teil 2 )
 						- Nach Abstimmung mit mir
 						- 17.07.20 Letzter Vorlesungstag
 					</section> -->
-				</section>
-				<section>
-					<h3>Moodle Kurs</h3>
-					<h2>Einschreibeschlüssel: IPRSS20</h2>
-					<a href="https://moodle.hft-stuttgart.de/course/view.php?id=2114">https://moodle.hft-stuttgart.de/course/view.php?id=2114</a>
-				</section>
-				<!-- <section data-markdown>
+        </section>
+        <section>
+          <h3>Moodle Kurs</h3>
+          <h2>Einschreibeschlüssel: IPRWS2021</h2>
+          <a href="https://moodle.hft-stuttgart.de/course/view.php?id=2114"
+            >https://moodle.hft-stuttgart.de/course/view.php?id=2114</a
+          >
+        </section>
+        <!-- <section data-markdown>
 					### Übungen
 					- Übungen sollten auf Web-Server für IPR laufen: http://193.196.143.166/~IHR_LOGIN_NAME
 					- Kopieren Sie die Übungsaufgaben auf den Webserver: Siehe Rechnerpraxis: scp -R und rsync
@@ -182,7 +157,7 @@
 						- SSH: WinSSH, Putty
 						- FTP: Filezilla, WinSCP
 				</section> -->
-				<!-- <section data-markdown>
+        <!-- <section data-markdown>
 					### Übungen
 					- Speichern Sie Ihre Dateien unter dem Verzeichnis `public_html` (müssen Sie evtl. erst mit mkdir anlegen)
 					- Unterhalb `public_html` legen Sie Unterverzeichnisse mit dem Namen der Übung, bspw. `uebung1_aufgabe1`
@@ -191,65 +166,90 @@
 						- public_html und index.html ist nicht Teil der URL
 						- Sie müssen darauf achten, daß die Dateirechte stimmen (`chmod +x`)
 				</section> -->
-				<section>
-					<section data-markdown>
-						### Übungsaufgaben
-						- Werden ausschließlich über <a href="https://classroom.github.com/classrooms/38767238-hft-stuttgart-ipr-sose-19">GitHub Classroom</a> abgenommen
-						- GitHub ist ein Dienst um online repositories zu hosten
-						- Deadline einhalten, andernfalls nächstes Semester wieder
-						- Die Aufgaben bauen auf einander auf
-						- GIT Skills sind notwendig zum bestehen
-					</section>
-					<section data-markdown data-background-size="contain" data-background-image="./images/ci.png">
+        <section>
+          <section data-markdown>
+            ### Übungsaufgaben - Werden ausschließlich über
+            <a
+              href="https://classroom.github.com/classrooms/38767238-hft-stuttgart-ipr-sose-19"
+              >GitHub Classroom</a
+            >
+            abgenommen - GitHub ist ein Dienst um online repositories zu hosten
+            - Deadline ist innerhalb der Woche zu erledigen, d.h. eine Aufgabe
+            in KW 43 muss bis zum 25.10.2020 24:00 Uhr erledigt werden -
+            Deadline einhalten, andernfalls nächstes Semester wieder - Die
+            Aufgaben bauen auf einander auf - GIT Skills sind notwendig zum
+            bestehen
+          </section>
+          <section
+            data-markdown
+            data-background-size="contain"
+            data-background-image="./images/ci.png"
+          ></section>
+        </section>
+        <section>
+          <section data-markdown>
+            ### Studentenprojekte - Sofern alle Übrungsaufgaben bestanden sind
+            müssen die Gruppen selbst gebildet werden - Datenbank und Hosting
+            gibt es von der HfT, allerdings reicht auch der eigene Rechner, oder
+            irgend ein beliebiger Anbieter (AWS, Azure, Hetzner, etc.) - Jede
+            Technologie ist erlaubt (auch Programmiersprachen, die nicht im Kurs
+            drankamen oder andere Datenbanken z.B.)
+          </section>
+          <section data-markdown>
+            ### Studentenprojekte - Um zu bestehen muss eine Interaktion mit der
+            Software stattfinden, z.B.: - Responsive Mobile Webseite - Man kann
+            Links auf der Seite posten - Links können von einem Admin wieder
+            gelöscht werden - Die Linkliste besitzt eine Paginierung
+          </section>
+        </section>
+      </div>
+    </div>
 
-					</section>
-				</section>
-				<section>
-						<section data-markdown>
-							### Studentenprojekte
-							- Sofern alle Übrungsaufgaben bestanden sind müssen die Gruppen selbst gebildet werden
-							- Datenbank und Hosting gibt es von der HfT, allerdings reicht auch der eigene Rechner, oder irgend ein beliebiger Anbieter (AWS, Azure, Hetzner, etc.)
-							- Jede Technologie ist erlaubt (auch Programmiersprachen, die nicht im Kurs drankamen oder andere Datenbanken z.B.)
-						</section>
-						<section data-markdown>
-							### Studentenprojekte
-							- Um zu bestehen muss eine Interaktion mit der Software stattfinden, z.B.:
-								- Responsive Mobile Webseite
-								- Man kann Links auf der Seite posten
-								- Links können von einem Admin wieder gelöscht werden
-								- Die Linkliste besitzt eine Paginierung
-						</section>
-				</section>
-			</div>
-		</div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
 
-		<script>
+        transition: "slide", // none/fade/slide/convex/concave/zoom
 
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
-
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/search/search.js', async: true },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-
-		</script>
-
-	</body>
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          {
+            src: "lib/js/classList.js",
+            condition: function () {
+              return !document.body.classList;
+            },
+          },
+          {
+            src: "plugin/markdown/marked.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src: "plugin/markdown/markdown.js",
+            condition: function () {
+              return !!document.querySelector("[data-markdown]");
+            },
+          },
+          {
+            src: "plugin/highlight/highlight.js",
+            async: true,
+            callback: function () {
+              hljs.initHighlightingOnLoad();
+            },
+          },
+          { src: "plugin/search/search.js", async: true },
+          { src: "plugin/zoom-js/zoom.js", async: true },
+          { src: "plugin/notes/notes.js", async: true },
+        ],
+      });
+    </script>
+  </body>
 </html>
