@@ -16,26 +16,18 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <link rel="stylesheet" href="css/reveal.css" />
-    <link rel="stylesheet" href="css/theme/hft.css" id="theme" />
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/white.css" />
 
-    <!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="lib/css/zenburn.css" />
-
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.type = "text/css";
-      link.href = window.location.search.match(/print-pdf/gi)
-        ? "css/print/pdf.css"
-        : "css/print/paper.css";
-      document.getElementsByTagName("head")[0].appendChild(link);
-    </script>
-
-    <!--[if lt IE 9]>
-      <script src="lib/js/html5shiv.js"></script>
-    <![endif]-->
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <style>
+      h1.title,
+      h3.title {
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
@@ -47,13 +39,13 @@
           <h1 class="title">IPR</h1>
           <h3 class="title">Übersicht / Vorlesungsplan</h3>
         </section>
-        <section>
+        <section data-auto-animate>
           <h3>Mathias Maciossek</h3>
           <ul>
             <li>2008 – 2011 HfT Furtwangen</li>
             <li>2011 – 2013 Malmö University</li>
-            <li>2013 – 2015 Arbeitsleben kennenlernen</li>
-            <li>2017 – 2017 Startup: Aclandia Mozartreisen.de</li>
+            <li>2013 – 2015 Up2Go, Intuity</li>
+            <li>2017 – 2017 Alcandia Mozartreisen.de</li>
             <li>
               2015 – 2020 Freelancer (<a href="https://threethink.io"
                 >Threethink.io</a
@@ -63,7 +55,7 @@
             <li>2021 Neurolabs</li>
           </ul>
         </section>
-        <section>
+        <section data-auto-animate>
           <h3>Projekte</h3>
           <ul>
             <li>
@@ -72,82 +64,97 @@
             <li><a href="https://goo.gl/uCxJtQ">Slippy Ralph</a></li>
           </ul>
         </section>
-        <section>
+        <section data-auto-animate>
           <h3>Ziele</h3>
           <ul>
-            <li>Welche Technologien gibt es</li>
-            <li>Wie läuft Web-Development ab</li>
-            <li>Eigenes Projekt realisieren</li>
+            <li>Wie sieht professionelle Webentwicklung aus?</li>
+            <li>Welche Technologien kommen zum Einsatz?</li>
+            <li>Wie realisiere ich ein Projekt von A bis Z?</li>
           </ul>
         </section>
         <section>
-          <section><h2>Vorlesungsplan</h2></section>
-          <section>
-            <h2>Internet-Technologien</h2>
+          <section data-auto-animate><h2>Vorlesungsplan</h2></section>
+          <section data-auto-animate>
+            <h2>Was wir uns genauer anschauen</h2>
             <ul>
-              <li>TCP/IP</li>
-              <li>HTTP</li>
+              <li>JavaScript</li>
+              <li>Test Driven Development</li>
+              <li>Python</li>
+              <li>React</li>
+              <li>REST</li>
+              <li>GraphQL</li>
             </ul>
           </section>
-          <section>
-            <h2>Tooling</h2>
-            <ul>
-              <li>Git</li>
-            </ul>
+        </section>
+        <section>
+          <section
+            data-auto-animate
+            data-background-size="cover"
+            data-background-image="https://media.giphy.com/media/VQ77RNKX0nyaA/giphy.gif"
+          >
+            <h3 class="title">Administratives</h3>
           </section>
-          <section>
-            <h2>Client Technologien</h2>
+          <section data-auto-animate>
+            <h3>Administratives</h3>
             <ul>
-              <li>HTML, CSS, Frameworks</li>
-              <li>JavaScript + jQuery</li>
+              <li>4 SWS, 5 Credit Points (6 beim Master)</li>
+              <li>Präsenzzeit: 68 h (34 h Vorlesung, 34 h Übungen)</li>
               <li>
-                XHR API,
-                <a
-                  href="https://hacks.mozilla.org/2015/03/this-api-is-so-fetching"
-                  >Fetch API</a
-                >
+                Eigenstudium 82 h (51 h Selbststudium, 31 h Praktische
+                Rechnerarbeit)
               </li>
             </ul>
           </section>
-          <section>
-            <h2>Server Technologien</h2>
+          <section data-auto-animate>
+            <h3>Bewertung: Vier Teile</h3>
             <ul>
-              <li>NodeJS</li>
-              <li>PHP</li>
-              <li>WebServices</li>
+              <li>Projektumfang: User Stories</li>
+              <li>Code Quali tät: Test Coverage</li>
+              <li>Automation: Continuous Integration / Continuous Delivery</li>
+              <li>Abschluss-Präsentation</li>
             </ul>
           </section>
         </section>
         <section>
-          <h3>Administratives</h3>
-          <ul>
-            <li>4 SWS, 5 Credit Points</li>
-            <li>Vorlesung (ca. ½) mit Übungen am Rechner (ca. ½)</li>
-            <li>Präsenzzeit: 68 h (34 h Vorlesung, 34 h Übungen)</li>
-            <li>
-              Eigenstudium 82 h (51 h Selbststudium, 31 h Praktische
-              Rechnerarbeit)
-            </li>
-            <li>Unbenoteter Schein:</li>
-            <li>Realisierung einer Web-Anwendung</li>
-            <li>Als Gruppenarbeit (im besten Fall 4 Personen)</li>
-            <li>Übungen sind als Einzelarbeit „hochzuladen“ (s. später)</li>
-          </ul>
-        </section>
-        <section>
-          <section><h3>Literatur</h3></section>
-          <section>
-            <a href="https://www.stackoverflow.com"
-              >https://www.stackoverflow.com</a
-            >
-            <a href="https://www.codeschool.com">https://www.codeschool.com</a>
-            <a href="https://www.w3schools.com/">https://www.w3schools.com</a>
-            <a href="https://www.udemy.com">https://www.udemy.com</a>
-            <a href="https://thecodinglove.com/">https://thecodinglove.com/</a>
-            <a href="https://www.enki.com/">https://www.enki.com/</a>
-            <a href="https://developer.mozilla.org/en-US/"
-              >https://developer.mozilla.org</a
-            >
+          <section
+            data-auto-animate
+            data-background-size="cover"
+            data-background-image="https://media.giphy.com/media/LkjlH3rVETgsg/giphy.gif"
+          >
+            <h3 class="title">Literatur</h3>
+          </section>
+          <section data-auto-animate>
+            <h3>Literatur</h3>
+            <ul>
+              <li>
+                <a href="https://www.stackoverflow.com"
+                  >https://www.stackoverflow.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.codeschool.com"
+                  >https://www.codeschool.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3schools.com/"
+                  >https://www.w3schools.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.udemy.com">https://www.udemy.com</a>
+              </li>
+              <li>
+                <a href="https://thecodinglove.com/"
+                  >https://thecodinglove.com/</a
+                >
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/"
+                  >https://developer.mozilla.org</a
+                >
+              </li>
+            </ul>
           </section>
           <section>
             <h3>Newsletter</h3>
@@ -166,10 +173,14 @@
           </section>
         </section>
         <section>
-          <section data-background-image="https://ljdchost.com/aVIplNn.gif">
-            <h3>Tools</h3>
+          <section
+            data-auto-animate
+            data-background-size="cover"
+            data-background-image="https://media.giphy.com/media/3hQ0hZDo4QhR6/giphy.gif"
+          >
+            <h3 class="title">Tools</h3>
           </section>
-          <section>
+          <section data-auto-animate>
             <h3>Coding</h3>
             <ul>
               <li>VS Code</li>
@@ -178,12 +189,12 @@
               <li>Atom</li>
             </ul>
           </section>
-          <section><h3>Debugging</h3></section>
-          <section>
+          <section data-auto-animate><h3>Debugging</h3></section>
+          <section data-auto-animate>
             <h2>Internet Explorer</h2>
             <img src="https://media.giphy.com/media/e4Jyxh9zQjgnC/giphy.gif" />
           </section>
-          <section>
+          <section data-auto-animate>
             <h2>Google Chrome</h2>
             <img
               src="https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif"
@@ -191,36 +202,35 @@
           </section>
         </section>
         <section>
-          <section><h3>Termine</h3></section>
-          <section>
+          <section
+            data-auto-animate
+            data-background-size="cover"
+            data-background-image="https://media.giphy.com/media/iJVbodB91yLDO/giphy.gif"
+          >
+            <h3 class="title">Termine</h3>
+          </section>
+          <section data-auto-animate>
             <h3>Termine</h3>
             <ul>
-              <li>07.10.21: Fällt aus</li>
-              <li>14.10.21: Einführungsveranstaltung / Git</li>
-              <li>21.10.21: HTML</li>
-              <li>28.10.21: CSS</li>
-              <li>04.11.21: Frontend Development</li>
-              <li>11.11.21: JavaScript</li>
-              <li>
-                18.11.21: Vom statischen Web zu dynamischen Websites (Node.js I)
-              </li>
+              <li>17.3.2021: Intro | Gruppen</li>
+              <li>24.3.2021: Recap | Präsentation: Projektidee</li>
+              <li>31.3.2021: React Intro | UserStories</li>
+              <li>21.4.2021: React Pro Setup | Präsentation: Stories</li>
+              <li>7.4.2021: REST API Design</li>
+              <li>14.4.2021: ❓ Authentication (mit Auth0)</li>
+              <li>28.4.2021: CI/CD mit GitHub</li>
             </ul>
           </section>
-          <section>
+          <section data-auto-animate>
             <h3>Termine</h3>
             <ul>
-              <li>25.11.21: Node.js II</li>
-              <li>02.12.21: Asynchronous JavaScript</li>
-              <li>09.12.21: Gastvortrag / Projektarbeit</li>
-              <li>
-                16.12.21: Gastvortrag: Einführung in Docker - Andreas Menge
-              </li>
-              <li>23.12.21: Angular & Typescript Dimitrios Kokkonias</li>
-              <li>
-                13.01.22: Projektarbeit / letzte Chance für Rückfragen zum
-                Projekt
-              </li>
-              <li>20.01.22: Abgabe der Projekte / Abschlusspräsentationen</li>
+              <li>5.5.2021: ❓ GlobalState Management (mit Redux)</li>
+              <li>12.5.2021: GraphQL</li>
+              <li>19.5.2021: SignedUrl Uploads</li>
+              <li>26.5.2021: Serverless</li>
+              <li>2.6.2021: Puffer</li>
+              <li>9.6.2021: Pfingsten</li>
+              <li>16.6.2021: Abgabe der Projekte</li>
             </ul>
           </section>
         </section>
@@ -230,130 +240,22 @@
             >https://moodle.hft-stuttgart.de/course/view.php?id=2114</a
           >
         </section>
-        <!-- <section data-markdown>
-          ### Übungen
-          - Übungen sollten auf Web-Server für IPR laufen: http://193.196.143.166/~IHR_LOGIN_NAME
-          - Kopieren Sie die Übungsaufgaben auf den Webserver: Siehe Rechnerpraxis: scp -R und rsync
-          - Einloggen
-            - LDAP Passwort (wie Mail und Moodle)
-            - SSH: WinSSH, Putty
-            - FTP: Filezilla, WinSCP
-        </section> -->
-        <!-- <section data-markdown>
-          ### Übungen
-          - Speichern Sie Ihre Dateien unter dem Verzeichnis `public_html` (müssen Sie evtl. erst mit mkdir anlegen)
-          - Unterhalb `public_html` legen Sie Unterverzeichnisse mit dem Namen der Übung, bspw. `uebung1_aufgabe1`
-          Beispiel (2. Aufgabe des JavaScript Übungsblatts):
-          - http://193.196.143.166/~99name1bif/uebung4_aufgabe2/
-            - public_html und index.html ist nicht Teil der URL
-            - Sie müssen darauf achten, daß die Dateirechte stimmen (`chmod +x`)
-        </section> -->
-        <section>
-          <section>
-            <h3>Übungsaufgaben</h3>
-            <ul>
-              <li>
-                Werden ausschließlich über
-                <a
-                  href="https://classroom.github.com/classrooms/38767238-hft-stuttgart-ipr-sose-21"
-                  >GitHub Classroom</a
-                >
-                abgenommen
-              </li>
-              <li>GitHub ist ein Dienst um online repositories zu hosten</li>
-              <li>
-                Deadline ist innerhalb der Woche zu erledigen, d.h. bis zur
-                kommenden Vorlesung sollte alles fertig sein.
-              </li>
-              <li>Deadline einhalten, andernfalls nächstes Semester wieder</li>
-              <li>Die Aufgaben bauen auf einander auf</li>
-              <li>GIT Skills sind notwendig zum bestehen</li>
-            </ul>
-          </section>
-          <section
-            data-background-size="contain"
-            data-background-image="./images/ci.png"
-          ></section>
-        </section>
-        <section>
-          <section>
-            <h3>Studentenprojekte</h3>
-            <ul>
-              <li>
-                Sofern alle Übrungsaufgaben bestanden sind müssen die Gruppen
-                selbst gebildet werden
-              </li>
-              <li>
-                Datenbank und Hosting gibt es von der HfT, allerdings reicht
-                auch der eigene Rechner, oder irgend ein beliebiger Anbieter
-                (AWS, Azure, Hetzner, etc.)
-              </li>
-              <li>
-                Jede Technologie ist erlaubt (auch Programmiersprachen, die
-                nicht im Kurs drankamen oder andere Datenbanken z.B.)
-              </li>
-            </ul>
-          </section>
-          <section>
-            <h3>Studentenprojekte</h3>
-            <ul>
-              <li>
-                Um zu bestehen muss eine Interaktion mit der Software
-                stattfinden, z.B.: Responsive Mobile Webseite
-              </li>
-              <li>Man kann Links auf der Seite posten</li>
-              <li>Links können von einem Admin wieder gelöscht werden</li>
-              <li>Die Linkliste besitzt eine Paginierung</li>
-            </ul>
-          </section>
-        </section>
       </div>
     </div>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
-
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
     <script>
-      // More info https://github.com/hakimel/reveal.js#configuration
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
       Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        hash: true,
 
-        transition: "slide", // none/fade/slide/convex/concave/zoom
-
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [
-          {
-            src: "lib/js/classList.js",
-            condition: function () {
-              return !document.body.classList;
-            },
-          },
-          {
-            src: "plugin/markdown/marked.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "plugin/markdown/markdown.js",
-            condition: function () {
-              return !!document.querySelector("[data-markdown]");
-            },
-          },
-          {
-            src: "plugin/highlight/highlight.js",
-            async: true,
-            callback: function () {
-              hljs.initHighlightingOnLoad();
-            },
-          },
-          { src: "plugin/search/search.js", async: true },
-          { src: "plugin/zoom-js/zoom.js", async: true },
-          { src: "plugin/notes/notes.js", async: true },
-        ],
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
       });
     </script>
   </body>
